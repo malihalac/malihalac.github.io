@@ -1,376 +1,26 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-
-/* Set the style */
-body {
-  font-family: "Mulish";
-  color: #767676;
-  font-size: 15px;
-  line-height: 30px;
-  letter-spacing: 0.5px;
-  word-wrap: break-word;
-  font-weight: 400;
-}
-
-.split {
-  height: 100%;
-  width: 73%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.left {
-  left: 0;
-  background-color: #FFFFFF;
-}
-
-.right {
-  right: 0;
-  background-color: #F5F5F5;
-}
-
-.centered {
-  display: flex;
-  position: relative;
-  top: 20%;
-  left: 56%;
-  transform: translate(-50%, -50%);
-}
-
-.centered img {
-  display:inline-block;
-  width: 20%;
-  height: 20%;
-  border-radius: 50%;
-  border: 5px solid #555;
-  float:left;
-}
-
-.name {
-  position: absolute;
-  font-family: "Montserrat";
-  font-size: 25px;
-  left: 6%;
-  font-weight: 900;
-  top: 36%;
-  line-height: 140%;
-}
-
-.nav_bar {
-  position: absolute;
-  top: 55%;
-  left: 6%;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-weight: 550;
-}
-
-.social {
-  display: inline-block;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #FFFFFF;
-}
-
-li a {
-  display: block;
-  color: #767676;
-  padding: 2px 0px;
-  text-decoration: none;
-}
-
-a:hover{
-  font-size:21px;
-}
-
-a:hover i {
-  transform: scale(1.5);
-  }
-
-  .bi-youtube:hover {
-  color: red;
-  }
-
-.bi-twitter:hover {
-  color: #00adb5;
-  }
-
-.bi-linkedin:hover {
-  color: #04009a;
-  }
-
-.bi-github:hover {
-  color: black;
-  }
-
-.bi-strava:hover {
-  color: #FFA500;
-  }
-
-.bi-gitlab:hover {
-  color: #fc6d26;
-  }
-
-.w-5:hover {
-  color: black;
-  }
-
-.par {
-  position: absolute;
-  font-family: "Montserrat";
-  font-size: 25px;
-  left: 6%;
-  font-weight: 900;
-  top: 36%;
-  line-height: 140%;
-}
-
-.main_block_resume {
-  display: inline-block;
-  margin-top: 6px;
-  margin-left: 55px;
-  width: 75%;
-  height: 1000px;
-}
-
-.resume_section_title{
-  font-family: "Montserrat";
-  font-size: 25px;
-  font-weight: 900;
-  color: #000000;
-  margin-top: 35px;
-}
-
-.resume_main_title{
-  font-family: "Montserrat";
-  font-size: 35px;
-  font-weight: 900;
-  color: #000000;
-  margin-top: 35px;
-}
-
-.resume_subsection_title{
-  color: #000000;
-  font-size: 15px;
-  text-decoration:none; 
-  font-weight: bold;
-  border:none;
-  color: inherit;
-  background-color: #F5F5F5;
-  display: inline-block;
-  margin-top: 15px;
-}
-
-.resume_subsection_publications{
-  color: #000000;
-  margin-top: 15px;
-  border:none;
-  color: inherit;
-  background-color: #F5F5F5;
-  display: inline-block;
-}
-
-.details {
-  text-decoration:none; 
-  border:none;
-  color: inherit;
-  background-color: #F5F5F5;
-  display: inline-block;
-  margin-left: 40px;
-  margin-top: 0.001px;
-  margin-bottom: 0.001px;
-  font-size: 15px;
-}
-
-.subdetails {
-  text-decoration:none; 
-  border:none;
-  color: inherit;
-  background-color: #F5F5F5;
-  display: inline-block;
-  margin-left: 80px;
-  margin-top: 0.001px;
-  margin-bottom: 0.001px;
-}
-
-
-a{
-  text-decoration:none; 
-  border:none;
-  color: inherit;
-}
-
-b {
-    font-weight: bold;
-    font-family: inherit;
-}
-
-i {
-  font-style: italic;
-}
-
-/* Responsive Design Adjustments */
-@media screen and (max-width: 1024px) {
-  .left {
-    width: 35%;
-  }
-
-  .right {
-    width: 65%;
-  }
-
-  .centered img {
-    width: 70%;
-  }
-
-  .nav_bar {
-    font-size: 0.9em;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .left {
-    width: 100%;
-    height: auto;
-    padding: 20px 0;
-    float: none;
-  }
-
-  .right {
-    width: 100%;
-    height: auto;
-    float: none;
-    padding: 20px;
-  }
-
-  .centered {
-    flex-direction: column;
-  }
-
-  .centered img {
-    width: 50%;
-  }
-
-  .name {
-    font-size: 1em;
-  }
-
-  .nav_bar {
-    font-size: 0.8em;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .left {
-    width: 100%;
-  }
-
-  .right {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .centered img {
-    width: 40%;
-  }
-
-  .name {
-    font-size: 0.8em;
-  }
-
-  .nav_bar {
-    font-size: 0.7em;
-  }
-
-  .main_title {
-    font-size: 1.5em;
-  }
-}
-
-/* Set the style */
-</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
 
-<!-- /LEFTPART -->
-<div class="split left">
+<!-- Sidebar Toggle Button -->
+<div class="sidebar-toggle" onclick="toggleSidebar()">☰</div>
 
-  <!----  Profile Pic  --->
+<!-- LEFTPART -->
+<div class="split left">
   <div class="centered">
     <img src="pics/main_pic.png" alt="Main pic"> 
   </div>
-
-  <!----  NAME  --->
   <div class='name'>
     <h1><strong>Mali Halac</strong></h1>
-    <h2 style="font-size:16px !important; font-style: italic; font-weight: 500;
-    line-height: 100%;"> 
+    <h2 style="font-size:16px !important; font-style: italic; font-weight: 500; line-height: 100%;"> 
       Ph.D. student in Bioengineering @Harvard<br>
-      Research in Neuroengineering,<br>
-      Neuroimaging, Machine Learning,<br>
-      Computational Biology
+      I design neural interfaces :)
     </h2>
   </div>
-
-  <!----  Navigation Bar  --->
   <div class="nav_bar">
     <ul>
       <li><a href="index.html">About Me</a></li>
@@ -378,10 +28,7 @@ i {
       <li><a href="books.html">Books I've Read</a></li>
       <li><a href="podcasts.html">Podcasts I've Listened</a></li>
       <li><a href="photography.html">Photography</a></li>
-      <!-- empty line uncomment -->
-      <!-- <li> <br> </li> -->
     </ul>
-    <br>
     <!----  SOCIAL MEDIA  --->
     <div class="social">
       <!----  TWITTER ICON  --->
@@ -392,8 +39,7 @@ i {
           </svg>
         </i>
       </a>
-
-        <!---- LINKEDIN ICON  --->
+      <!---- LINKEDIN ICON  --->
       <a href="https://www.linkedin.com/in/mali-halac/" target="_blank" title="LinkedIn">
         <i> 
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -401,7 +47,6 @@ i {
           </svg>
         </i>
       </a>
-
       <!---- GOOGLE SCHOLAR ICON  --->
       <a href="https://scholar.google.com/citations?user=WkFBf6QAAAAJ&hl=en" target="_blank" title="Google Scholar">
         <i> 
@@ -410,7 +55,6 @@ i {
           </svg>
         </i>
       </a>
-
       <!----  GITHUB ICON  --->
       <a href="https://github.com/malihalac" target="_blank" title="GitHub">
         <i> 
@@ -419,7 +63,6 @@ i {
           </svg>
         </i>
       </a>
-
       <!----  GITLAB ICON  --->
       <a href="https://gitlab.com/mali_halac" target="_blank" title="GitLab">
         <i> 
@@ -428,7 +71,6 @@ i {
           </svg>
         </i>
       </a>
-
       <!---- YOUTUBE ICON  --->
       <a href="https://www.youtube.com/channel/UCicngDi9-BOA667gRFlhL-w" target="_blank" title="YouTube">
         <i> 
@@ -437,7 +79,6 @@ i {
           </svg>
         </i>
       </a>
-
       <!---- STRAVA ICON  --->
       <a href="https://www.strava.com/athletes/28859028" target="_blank" title="Strava">
         <i> 
@@ -446,11 +87,8 @@ i {
           </svg>
         </i>
       </a>
-
     </div>
-
   </div>
-
 </div>
 
 <!-- RIGHTPART -->
@@ -643,15 +281,10 @@ i {
             <li class="resume_subsection_title"><h2>&#8226 Thus Spoke Zarathustra by Friedrich Nietzsche (1883) ****</h2></li><br>
             <li class="resume_subsection_title"><h2>&#8226 Why We Sleep: Unlocking the Power of Sleep and Dreams by Matthew Walker (2017) ***</h2></li><br><br><br>
           </ulb>
-
         </ol>
-
-
     </div>
-
-
-
 </div>
-     
+
+<script src="toggleSideBar.js"></script>
 </body>
 </html> 

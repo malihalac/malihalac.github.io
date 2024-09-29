@@ -1,359 +1,13 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-
-/* Set the style */
-body {
-  font-family: "Mulish";
-  color: #767676;
-  font-size: 15px;
-  line-height: 30px;
-  letter-spacing: 0.5px;
-  word-wrap: break-word;
-  font-weight: 400;
-}
-
-.split {
-  height: 100%;
-  width: 73%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.left {
-  left: 0;
-  background-color: #FFFFFF;
-}
-
-.right {
-  right: 0;
-  background-color: #F5F5F5;
-}
-
-.centered {
-  display: flex;
-  position: relative;
-  top: 20%;
-  left: 56%;
-  transform: translate(-50%, -50%);
-}
-
-.centered img {
-  display:inline-block;
-  width: 20%;
-  height: 20%;
-  border-radius: 50%;
-  border: 5px solid #555;
-  float:left;
-}
-
-.name {
-  position: absolute;
-  font-family: "Montserrat";
-  font-size: 25px;
-  left: 6%;
-  font-weight: 900;
-  top: 36%;
-  line-height: 140%;
-}
-
-.nav_bar {
-  position: absolute;
-  top: 55%;
-  left: 6%;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-weight: 550;
-}
-
-.social {
-  display: inline-block;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #FFFFFF;
-}
-
-li a {
-  display: block;
-  color: #767676;
-  padding: 2px 0px;
-  text-decoration: none;
-}
-
-a:hover{
-  font-size:21px;
-}
-
-a:hover i {
-  transform: scale(1.5);
-  }
-
-.bi-youtube:hover {
-  color: red;
-  }
-
-.bi-twitter:hover {
-  color: #00adb5;
-  }
-
-.bi-linkedin:hover {
-  color: #04009a;
-  }
-
-.bi-github:hover {
-  color: black;
-  }
-
-.bi-strava:hover {
-  color: #FFA500;
-  }
-
-.bi-gitlab:hover {
-  color: #fc6d26;
-  }
-
-.w-5:hover {
-  color: black;
-  }
-
-.par {
-  position: absolute;
-  font-family: "Montserrat";
-  font-size: 25px;
-  left: 6%;
-  font-weight: 900;
-  top: 36%;
-  line-height: 140%;
-}
-
-.main_block_resume {
-  display: inline-block;
-  margin-top: 6px;
-  margin-left: 55px;
-  width: 75%;
-  height: 1000px;
-}
-
-.resume_section_title{
-  font-family: "Montserrat";
-  font-size: 25px;
-  font-weight: 900;
-  color: #000000;
-  margin-top: 35px;
-}
-
-.resume_main_title{
-  font-family: "Montserrat";
-  font-size: 35px;
-  font-weight: 900;
-  color: #000000;
-  margin-top: 35px;
-}
-
-.resume_subsection_title{
-  color: #000000;
-  font-size: 15px;
-  text-decoration:none; 
-  font-weight: bold;
-  border:none;
-  color: inherit;
-  background-color: #F5F5F5;
-  display: inline-block;
-  margin-top: 15px;
-}
-
-.resume_subsection_publications{
-  color: #000000;
-  margin-top: 15px;
-  border:none;
-  color: inherit;
-  background-color: #F5F5F5;
-  display: inline-block;
-}
-
-.details {
-  text-decoration:none; 
-  border:none;
-  color: inherit;
-  background-color: #F5F5F5;
-  display: inline-block;
-  margin-top: 0.001px;
-  margin-bottom: 0.001px;
-  font-size: 15px;
-}
-
-.subdetails {
-  text-decoration:none; 
-  border:none;
-  color: inherit;
-  background-color: #F5F5F5;
-  display: inline-block;
-  margin-left: 40px;
-  margin-top: 0.001px;
-  margin-bottom: 0.001px;
-}
-
-
-a{
-  text-decoration:none; 
-  border:none;
-  color: inherit;
-}
-
-b {
-    font-weight: bold;
-    font-family: inherit;
-}
-
-i {
-  font-style: italic;
-}
-
-div.textAlignRight {
-  text-align: justify; /* For Edge */
-  -moz-text-align-last: right; /* For Firefox prior 58.0 */
-  text-align-last: right;
-}
-
-/* Responsive Design Adjustments */
-@media screen and (max-width: 1024px) {
-  .left {
-    width: 35%;
-  }
-
-  .right {
-    width: 65%;
-  }
-
-  .centered img {
-    width: 70%;
-  }
-
-  .nav_bar {
-    font-size: 0.9em;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .left {
-    width: 100%;
-    height: auto;
-    padding: 20px 0;
-    float: none;
-  }
-
-  .right {
-    width: 100%;
-    height: auto;
-    float: none;
-    padding: 20px;
-  }
-
-  .centered {
-    flex-direction: column;
-  }
-
-  .centered img {
-    width: 50%;
-  }
-
-  .name {
-    font-size: 1em;
-  }
-
-  .nav_bar {
-    font-size: 0.8em;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .left {
-    width: 100%;
-  }
-
-  .right {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .centered img {
-    width: 40%;
-  }
-
-  .name {
-    font-size: 0.8em;
-  }
-
-  .nav_bar {
-    font-size: 0.7em;
-  }
-
-  .main_title {
-    font-size: 1.5em;
-  }
-}
-
-/* Set the style */
-</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
+
+<!-- Sidebar Toggle Button -->
+<div class="sidebar-toggle" onclick="toggleSidebar()">☰</div>
 
 <!-- /LEFTPART -->
 <div class="split left">
@@ -369,9 +23,7 @@ div.textAlignRight {
     <h2 style="font-size:16px !important; font-style: italic; font-weight: 500;
     line-height: 100%;"> 
       Ph.D. student in Bioengineering @Harvard<br>
-      Research in Neuroengineering,<br>
-      Neuroimaging, Machine Learning,<br>
-      Computational Biology
+      I design neural interfaces :)
     </h2>
   </div>
 
@@ -484,7 +136,7 @@ div.textAlignRight {
                 <li class="details">Ph.D. Bioengineering</li><br>
                 <li class="details">Biohybrid Organs & Neuroprosthetics (Bionics) Lab</li><br>
                 <li class="details">Advisor: Dr. Shriya Srinivasan</li><br>
-              </ulb><br>
+              </ulb>
   
             <!-- Drexel -->
             <li class="resume_subsection_title"><h2>Drexel University (2019-2023) &#8212 Philadelphia, PA</h2></li><br>
@@ -497,11 +149,11 @@ div.textAlignRight {
                   <li class="subdetails">• Member, Drexel Society of Artificial Intelligence</li><br>
                   <li class="subdetails">• Member, Drexel Neuroscience Collaborative</li><br>
                 </ulb>
-              </ulb><br>
+              </ulb>
 
             <!-- GS Lise -->
             <li class="resume_subsection_title"><h2>Galatasaray High School (2014-2019) &#8212 Istanbul, Turkey</h2></li><br>
-          </ulb><br>
+          </ulb>
 
 
           <!-- Research EXPERIENCE -->
@@ -514,10 +166,10 @@ div.textAlignRight {
               @Ecological and Evolutionary Signal Processing & Informatics (EESI) Lab, Drexel University</h2></li><br>
               <div class="details">
                 <p>
-                  • Designing a whole brain model to quantify intersubject variation in functional connectivity architecture of attention and working memory.<br>
-                  • Analyzing single nucleotide polymorphisms (SNP), structural variants (SV), and gene expression patterns to determine the genetic origins of intersubject variation in these cognitive functions.<br>
+                  • Designed a whole brain model to quantify intersubject variation in functional connectivity architecture of attention and working memory.<br>
+                  • Analyzed single nucleotide polymorphisms (SNP), structural variants (SV), and gene expression patterns to determine the genetic origins of intersubject variation in these cognitive functions.<br>
                 </p>
-              </div><br><br>
+              </div><br>
 
               <li class="resume_subsection_title"><h2>Research Assistant, Machine Learning & Neuromorphic Computing &#8212 Sep. 2021 – Mar. 2022<br>
                 @Distributed Intelligent Scalable Computing (DISCO) Lab, Drexel University</h2></li><br>
@@ -526,7 +178,7 @@ div.textAlignRight {
                     • Designed a generative model for the enhanced reconstruction of perceived images from human brain activity.<br>
                     • Worked on the FPGA acceleration of this generative model.<br>
                   </p>
-                </div><br><br>
+                </div><br>
 
                 <li class="resume_subsection_title"><h2>Computational Biology Research Co-op &#8212 Mar. 2021 – Sep. 2022<br>
                   @Ecological and Evolutionary Signal Processing & Informatics (EESI) Lab, Drexel University</h2></li><br>
@@ -536,7 +188,7 @@ div.textAlignRight {
                       the computational cost to update big biological databases (1.65 times less memory usage)<br>
                       • Taught “Intro to Bash/Unix” at 2021 Biological Data Science Summer Workshop organized by our lab.<br>
                     </p>
-                  </div><br><br>
+                  </div><br>
 
                   <li class="resume_subsection_title"><h2>VIP Research, Machine Learning & Neuromorphic Computing &#8212 Sep. 2020 – Mar. 2021<br>
                     @Distributed Intelligent Scalable Computing (DISCO) Lab, Drexel University</h2></li><br>
@@ -544,7 +196,7 @@ div.textAlignRight {
                       <p>
                         • Worked on using machine learning models (VGG19, GAN, DNN) to analyze fMRI scans of human visual cortex with the purpose of reconstructing visual experiences.<br>
                       </p>
-                    </div><br><br>
+                    </div><br>
 
                   <li class="resume_subsection_title"><h2>Research Assistant, Neuroengineering &#8212 Sep. 2020 – Mar. 2021<br>
                     @Neuroengineering & Neuroergonomics Lab, Drexel University</h2></li><br>
@@ -554,7 +206,7 @@ div.textAlignRight {
                         • Designed the P300 brain wave-based control system that turns brain signals into computer commands for home environment control—turning on/off lights, TV, and A/C.<br>
                         • Designed the user interface for the BCI.<br>
                       </p>
-                    </div><br><br>
+                    </div><br>
           </ulb>
 
 
@@ -568,17 +220,17 @@ div.textAlignRight {
               @Flagship Labs 95, Inc. </h2></li><br>
               <div class="details">
                 <p>
-                  • Building a novel computational discovery and development platform for noncanonical viral vector-based programmable medicines.<br>
+                  • Built a novel computational discovery and development platform for noncanonical viral vector-based programmable medicines.<br>
                 </p>
-              </div><br><br>
+              </div><br>
 
             <li class="resume_subsection_title"><h2>Consultant, Computational Biology &#8212 Oct. 2022 – Present<br>
               @Flagship Labs 70, Inc. </h2></li><br>
               <div class="details">
                 <p>
-                  • Designing computational models for RNA structure analysis, metagenomics, and viral vector based cargo delivery for plant therapeutics.<br>
+                  • Designed computational models for RNA structure analysis, metagenomics, and viral vector based cargo delivery for plant therapeutics.<br>
                 </p>
-              </div><br><br>
+              </div><br>
         
             <li class="resume_subsection_title"><h2>Computational Biologist (Co-op) &#8212 Mar. 2022 – Sept. 2022<br>
               @Flagship Labs 70, Inc. </h2></li><br>
@@ -594,7 +246,7 @@ div.textAlignRight {
                   • Automated data transfer from Illumina MiSeq to AWS S3.<br>
                   • Performed gel electrophoresis and microinjections.<br>
                 </p>
-              </div><br><br>
+              </div><br>
 
             <li class="resume_subsection_title"><h2>Teaching Assistant, "ENGR 131: Introductory Programming for Engineers" &#8212 Sept. 2021 – Mar. 2022<br>
               @Drexel University</h2></li><br>
@@ -603,120 +255,110 @@ div.textAlignRight {
                   • Designed programming exercises and projects for Python with Dr. Andrew Cohen for the winter term of the 2021-2022 academic year..<br>
                   • Supervised students with their programming assignments.<br>
                 </p>
-              </div><br><br>
+              </div><br>
               
           </ulb>
-
 
           <!-- SKILLS -->
           <div class="resume_section_title">
             <h1><strong>Skills</strong></h1>
           </div>
-
           <ulb>
-            <li class="resume_subsection_title"><h2>&#8226 Programming</h2></li><br>
+            <li class="resume_subsection_title"><h2>Programming</h2></li><br>
               <div class="details">
                 <p>Shell scripting, Matlab, Python, R, Julia, C++, Nextflow, VHDL, HTML, CSS</p>
               </div><br>
-
-            <li class="resume_subsection_title"><h2>&#8226 Machine Learning</h2></li><br>
+            <li class="resume_subsection_title"><h2>Machine Learning</h2></li><br>
               <div class="details">
                 <p>CNN, GAN, LSTM, PCA, Diffusion Models, Tensorflow</p>
               </div><br>
-
-            <li class="resume_subsection_title"><h2>&#8226 Software</h2></li><br>
+            <li class="resume_subsection_title"><h2>Software</h2></li><br>
               <div class="details">
                 <p>AWS, Docker, Slurm, NI Multisim, PathWave ADS, Linux, Code Ocean, MS Office, Google Colab</p>
               </div><br>
-
-            <li class="resume_subsection_title"><h2>&#8226 Neuroengineering</h2></li><br>
+            <li class="resume_subsection_title"><h2>Neuroengineering</h2></li><br>
               <div class="details">
                 <p>EEG, fNIRS, MRI, PET, SPM 12, FSL, OpenVibe</p>
               </div><br>
-
-            <li class="resume_subsection_title"><h2>&#8226 Sequencing Analysis</h2></li><br>
+            <li class="resume_subsection_title"><h2>Sequencing Analysis</h2></li><br>
               <div class="details">
                 <p>Illumina MiSeq, Nanopore MinION, PacBio, BGISEQ, Sanger, RACE</p>
               </div><br>
-
-            <li class="resume_subsection_title"><h2>&#8226 Engineering Expertise</h2></li><br>
+            <li class="resume_subsection_title"><h2>Engineering Expertise</h2></li><br>
               <div class="details">
                 <p>RF Circuit Design, Digital Logic Design, Digital Signal Processing, Oscilloscope, High Performance Computing</p>
               </div><br>
-
-            <li class="resume_subsection_title"><h2>&#8226 Languages</h2></li><br>
+            <li class="resume_subsection_title"><h2>Languages</h2></li><br>
               <div class="details">
                 <p>English (fluent), French (fluent), Turkish (Fluent), German (Intermediate)</p>
             </div><br>
-
-          </ulb><br>
-
+          </ulb>
 
           <!-- Peer-Reviewed Conference Publications -->
           <div class="resume_section_title">
             <h1><strong>Peer-Reviewed Conference Publications</strong></h1>
           </div>
-
           <ulb>
-            <li class="resume_subsection_publications">&#8226 <b>M. Halac</b>, M. Isik, H. Ayaz and A. Das, <i><b>"Multiscale Voxel Based Decoding For Enhanced Natural Image Reconstruction From Brain Activity,"</b></i> 2022 International Joint Conference on Neural Networks (IJCNN), 2022, pp. 1-7, doi: 10.1109/IJCNN55064.2022.9892430.</li><br>
-            <li class="resume_subsection_publications">&#8226 <b>M. Halac</b>, B. Sokhansanj, W. Trimble, T. Coard, N. Sabin, E. Ozdogan, R. Polikar, G. Rosen, <i><b>"Incremental & Semi-Supervised Learning for Functional Analysis of Protein Sequences,"</b></i> 2021 IEEE Symposium Series on Computational Intelligence (SSCI), 2021, pp. 01-08, doi: 10.1109/SSCI50451.2021.9659958.</li><br>
-            <li class="resume_subsection_publications">&#8226 E. Ozdogan, N. Sabin, T. Gracie, S. Portley, <b>M. Halac</b>, T. Coard, W. Trimble, B. Sokhansanj, G. Rosen, R. Polikar, <i><b>"Incremental and Semi-Supervised Learning of 16S-rRNA Genes For Taxonomic Classification,"</b></i> 2021 IEEE Symposium Series on Computational Intelligence (SSCI), 2021, pp. 1-7, doi: 10.1109/SSCI50451.2021.9660093.</b></li><br>
-            <li class="resume_subsection_publications">&#8226 M. Sahal, E. Dryden, <b>M. Halac</b>, S. Feldmen, T. Heiman-Patterson, H. Ayaz, <i><b>"Augmented Reality Integrated Brain Computer Interface for Smart Home Control,"</b></i> Advances in Neuroergonomics and Cognitive Engineering (pp. 89--97), 2021, Springer International Publishing.</li><br>
-          </ulb><br>
-
+            <li class="resume_subsection_publications"><b>M. Halac</b>, M. Isik, H. Ayaz and A. Das, <i><b>"Multiscale Voxel Based Decoding For Enhanced Natural Image Reconstruction From Brain Activity,"</b></i> 2022 International Joint Conference on Neural Networks (IJCNN), 2022, pp. 1-7, doi: 10.1109/IJCNN55064.2022.9892430.</li><br>
+            <li class="resume_subsection_publications"><b>M. Halac</b>, B. Sokhansanj, W. Trimble, T. Coard, N. Sabin, E. Ozdogan, R. Polikar, G. Rosen, <i><b>"Incremental & Semi-Supervised Learning for Functional Analysis of Protein Sequences,"</b></i> 2021 IEEE Symposium Series on Computational Intelligence (SSCI), 2021, pp. 01-08, doi: 10.1109/SSCI50451.2021.9659958.</li><br>
+            <li class="resume_subsection_publications">E. Ozdogan, N. Sabin, T. Gracie, S. Portley, <b>M. Halac</b>, T. Coard, W. Trimble, B. Sokhansanj, G. Rosen, R. Polikar, <i><b>"Incremental and Semi-Supervised Learning of 16S-rRNA Genes For Taxonomic Classification,"</b></i> 2021 IEEE Symposium Series on Computational Intelligence (SSCI), 2021, pp. 1-7, doi: 10.1109/SSCI50451.2021.9660093.</b></li><br>
+            <li class="resume_subsection_publications">M. Sahal, E. Dryden, <b>M. Halac</b>, S. Feldmen, T. Heiman-Patterson, H. Ayaz, <i><b>"Augmented Reality Integrated Brain Computer Interface for Smart Home Control,"</b></i> Advances in Neuroergonomics and Cognitive Engineering (pp. 89--97), 2021, Springer International Publishing.</li>
+          </ulb>
 
           <!-- Peer-Reviewed Abstracts -->
           <div class="resume_section_title">
             <h1><strong>Peer-Reviewed Abstracts</strong></h1>
           </div>
-
           <ulb>
-            <li class="resume_subsection_publications">&#8226 M. De Lorenzo, <b>M. Halac</b>, S. Sivakumar, H. Ayaz, <i><b>"Deep Neural Network Modeling Using CNN and BiLSTM for Online Passive EEG Brain-Computer Interface to Classify Mental Workload,"</b></i> 2021 Neuroergonomics Conference, 2021.</li><br>
-          </ulb><br>
+            <li class="resume_subsection_publications">M. De Lorenzo, <b>M. Halac</b>, S. Sivakumar, H. Ayaz, <i><b>"Deep Neural Network Modeling Using CNN and BiLSTM for Online Passive EEG Brain-Computer Interface to Classify Mental Workload,"</b></i> 2021 Neuroergonomics Conference, 2021.</li>
+          </ulb>
 
-      
           <!-- Preprints -->
           <div class="resume_section_title">
             <h1><strong>Preprints</strong></h1>
           </div>
-
           <ulb>
-            <li class="resume_subsection_publications">&#8226 E. Moyer, J. Winchell, I. Isozaki, Y. Alparslan, <b>M. Halac</b>, E. Kim, <i><b>"Functional Protein Structure Annotation Using a Deep Convolutional Generative Adversarial Network,"</b></i> 2021, arXiv: 2104.08969.</li><br>
-          </ulb><br>
-
+            <li class="resume_subsection_publications">E. Moyer, J. Winchell, I. Isozaki, Y. Alparslan, <b>M. Halac</b>, E. Kim, <i><b>"Functional Protein Structure Annotation Using a Deep Convolutional Generative Adversarial Network,"</b></i> 2021, arXiv: 2104.08969.</li>
+          </ulb>
 
           <!-- Patents -->
           <div class="resume_section_title">
             <h1><strong>Patents</strong></h1>
           </div>
-
           <ulb>
-            <li class="resume_subsection_publications">&#8226 Polynucleotides for Modifying Organisms, Provisional filed 11 Oct 2022, International (PCT) and AR, UY, PY applications filed 31 Oct 2022</li><br>
-            <li class="resume_subsection_publications">&#8226 Polynucleotides for Modifying Organisms, Provisional filed 11 Oct 2022</li><br>
-          </ulb><br>
-
+            <li class="resume_subsection_publications">Polynucleotides for Modifying Organisms, Provisional filed 11 Oct 2022, International (PCT) and AR, UY, PY applications filed 31 Oct 2022</li>
+            <li class="resume_subsection_publications">Polynucleotides for Modifying Organisms, Provisional filed 11 Oct 2022</li>
+          </ulb>
 
           <!-- Awards & Honors -->
           <div class="resume_section_title">
             <h1><strong>Awards & Honors</strong></h1>
           </div>
-
           <ulb>
-            <li class="resume_subsection_publications">&#8226 Outstanding Undergraduate Student Award &#8212 Jan. 2023</li><br>
-            <li class="resume_subsection_publications">&#8226 Undergraduate Research Mini Grants &#8212 Nov. 2022</li><br>
-            <li class="resume_subsection_publications">&#8226 Dean's List &#8212 2019-2023</li><br>
-            <li class="resume_subsection_publications">&#8226 Nomination, BCI Award &#8212 2021</li><br>
-            <li class="resume_subsection_publications">&#8226 Dean's Scholarship &#8212 2019</li><br>
-          </ulb><br>
+            <li class="resume_subsection_publications">Outstanding Undergraduate Student Award &#8212 Jan. 2023</li>
+            <li class="resume_subsection_publications">Undergraduate Research Mini Grants &#8212 Nov. 2022</li>
+            <li class="resume_subsection_publications">Dean's List &#8212 2019-2023</li>
+            <li class="resume_subsection_publications">Nomination, BCI Award &#8212 2021</li>
+            <li class="resume_subsection_publications">Dean's Scholarship &#8212 2019</li>
+          </ulb>
 
+          <!-- Affiliations -->
+          <div class="resume_section_title">
+            <h1><strong>Affiliations</strong></h1>
+          </div>
+          <ulb>
+            <li class="resume_subsection_publications">RNA Society, Member &#8212 2024 - Present</li>
+            <li class="resume_subsection_publications">Biomedical Engineering Society (BMES), Member &#8212 2024 - Present</li>
+            <li class="resume_subsection_publications">American Academy of Pain Medicine (AAPM), Member &#8212 2024 - Present</li>
+            <li class="resume_subsection_publications">American Society of Pain & Neuroscience (ASPN), Member &#8212 2024 - Present</li>
+            <li class="resume_subsection_publications">IEEE Computational Intelligence Society (CIS), Member &#8212 2022 - Present</li>
+            <li class="resume_subsection_publications">IEEE, Member &#8212 2021 - Present</li>
+          </ulb>
         </ol>
-
         <br><br>
     </div>
-
-
-
 </div>
-     
+
+<script src="toggleSideBar.js"></script>
 </body>
 </html> 
