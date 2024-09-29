@@ -286,8 +286,85 @@ i {
   color: #fc6d26;
   }
 
-/* Set the style */
+/* Responsive Design Adjustments */
+@media screen and (max-width: 1024px) {
+  .left {
+    width: 35%;
+  }
 
+  .right {
+    width: 65%;
+  }
+
+  .centered img {
+    width: 70%;
+  }
+
+  .nav_bar {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    float: none;
+  }
+
+  .right {
+    width: 100%;
+    height: auto;
+    float: none;
+    padding: 20px;
+  }
+
+  .centered {
+    flex-direction: column;
+  }
+
+  .centered img {
+    width: 50%;
+  }
+
+  .name {
+    font-size: 1em;
+  }
+
+  .nav_bar {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .centered img {
+    width: 40%;
+  }
+
+  .name {
+    font-size: 0.8em;
+  }
+
+  .nav_bar {
+    font-size: 0.7em;
+  }
+
+  .main_title {
+    font-size: 1.5em;
+  }
+}
+
+/* Set the style */
 </style>
 </head>
 <body>
