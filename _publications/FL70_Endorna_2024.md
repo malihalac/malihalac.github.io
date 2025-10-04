@@ -1,5 +1,5 @@
 ---
-title: "Endornaviral satellite rna amplification systems for plants"
+title: "Endornaviral satellite RNA amplification systems for plants"
 collection: publications
 category: patents
 permalink: /publication/FL70_Endorna_2024

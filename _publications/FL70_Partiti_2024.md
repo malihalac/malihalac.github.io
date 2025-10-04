@@ -1,5 +1,5 @@
 ---
-title: "PARTITIVIRAL SATELLITE RNA AMPLIFICATION SYSTEMS FOR PLANTS"
+title: "Partitiviral satellite RNA amplification systems for plants"
 collection: publications
 category: patents
 permalink: /publication/FL70_Partiti_2024

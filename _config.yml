@@ -48,22 +48,22 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/malihalac"
+  github           : malihalac
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "https://bsky.app/profile/malihalac.bsky.social" # Replace this with you Bluesky username
+  bluesky          : malihalac.bsky.social 
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : https://www.instagram.com/mali_halac/
+  instagram        : mali_halac/
   lastfm           : # Username
-  linkedin         : https://www.linkedin.com/in/mali-halac/
+  linkedin         : mali-halac/
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -71,12 +71,12 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : https://x.com/mali_halac
+  twitter          : mali_halac/
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : https://www.youtube.com/channel/UCicngDi9-BOA667gRFlhL-w
+  youtube          : sweetbirdofparadise5870
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
