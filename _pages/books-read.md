@@ -6,9 +6,35 @@ author_profile: true
 ---
 Chronologically arranged list of books I've read or listened. The books listed below are the ones I enjoyed; otherwise, I wouldn't have finished them.
 
+I often read the books in their original languages if I'm fluent in them. Therefore, some of the reviews below may not be in English. I recommend using a google translate plug-in on your browser to translate the content of the page to English. 
+
+Always feel free to reach out. I love discussing books and ideas!
 ---
 
 ## Read in 2025
+
+- **Biofabrication** by *Ritu Raman* (2021) ****
+    Biology is amazing! I often find myself reflecting on the levels of complexity and design in biological systems. Think about your phone, for example. If the screen shatters, it keeps shattered unless you replace it. But if your skin gets scratched, countless microscopic organisms and processes rush to heal it. Why are we not making self-healing phone screens? What does it take to make one?
+
+    Questions like this constantly push me to read about biomaterials. Professor Raman gives a wonderful overview of the field — what kind of research is happening in different labs, and what the popular topics are.
+
+    I highly recommend the book to anyone looking for an introduction to this area. Ritu Raman herself works on engineering soft tissues, such as muscles, to be integrated into robotic applications. While the research is still in its early stages, it’s such an exciting direction. A long time ago, while I was watching Battlestar Galactica, there was a scene showing the inside of a Cylon (robots who revolted against humans) space fighter. From the outside it was all metal, like an F-20 fighter jet, but inside — full of biological tissues, muscles, organs, and more. It wasn't just alive and concious. It was a biological hybrid. A jaw-dropping sci-fi moment it was. Now, professor Raman is actually working on this. I couldn't be more excited! 
+
+    Per aspera ad astra!
+
+- **Avrupalı esireler ve Müslüman efendileri: "Türk" illerinde esaret anlatıları** by *İrvin Cemil Schick* (2005) ***
+    İrvin Cemil Bey ile tanismam, Sukru Furkan Ozturk hocanin [YouTube kanalindaki bir yayini](https://www.youtube.com/watch?v=agbDgKWhmf8) vasitasiyla gerceklesti. Irvin hocanin engin birikim ve arkaplanina hayran kalmamla beraber kutuphaneden bu kitabi bulup okumaya baslamam bir oldu. 
+
+    Kitap, Avrupalıların gözünden yazılmış Türk illerinde geçen esaret anlatılarından oluşmakta. Kitapta, uzunca önsözde de belirtildiği üzere, anlatıların geçtiği dönemlerde Türk–Arap–Müslüman kimliklerinin Avrupalılar gözünde belirgin olmamasından kaynaklı olarak Müslümanlar Türkler olarak görülüyor ve bu nedenle “Türk illerinde esaret anlatıları” olarak geçiyor.
+
+    Anlatıların birçoğu kurgusal olduklarından dolayı belki bugün heyecanlı bir roman veya romantik/melodramatik bir komedi filmi çekilebilecek anlatılar. Ancak yine de kitap, dönemin “Türk” kavramının egzotikliğinden ve fantezileri süsleyen deneyimlerinden insanların bakış açısına güzel kapılar sunuyor.
+
+    Okursanız, önsözü atlamayın. Zira İrvin Bey, kitabın gerçeklik boyutunu ve dönemsel durumları güzelce özetleyerek hoş bir girizgâh sunuyor.
+
+- **Elusive Cures: Why Neuroscience Hasn’t Solved Brain Disorders—and How We Can Change That** by *Nicole Rust* (2025) **** 
+    I used to follow Dr. Nicole Rust on academic Twitter/Bluesky as an undergrad. Her posts were always full of interesting facts about neurology drugs, their development, and history. I purchased it the day it was published and read it quickly. Dr. Rust does a good job explaining how cures and therapies for neurological diseases have been developed historically, and how academics can better design research to improve patient quality of life.
+
+    Personally, as an engineer and a scientist, I value research that translates to the patient side the most. The book highlighted how grave the situation is and strengthened that belief. As my dear mentor, Dr. Banu Onaral, used to say: our job is to better the human condition.
 
 - **Then I Am Myself the World: What Consciousness Is and How to Expand It** by *Christof Koch* (2024) *  
     Leading consciousness researcher Christof Koch explores the nature of consciousness in this book. He draws on explanations from neuroscience, shares his personal experiences with psychedelics, discusses common reports of near-death experiences, and reflects on religious perspectives. The most striking argument he makes is that consciousness is not merely a computation but has a physical essence. While this is an intriguing perspective, I must admit that I disagree. Perhaps one day I will write a blog post explaining why I hold that view..
