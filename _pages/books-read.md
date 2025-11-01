@@ -9,7 +9,6 @@ Chronologically arranged list of books I've read or listened. The books listed b
 I often read the books in their original languages if I'm fluent in them. Therefore, some of the reviews below may not be in English. I recommend using a google translate plug-in on your browser to translate the content of the page to English. 
 
 Always feel free to reach out. I love discussing books and ideas!
----
 
 ## Read in 2025
 
@@ -59,7 +58,7 @@ Always feel free to reach out. I love discussing books and ideas!
     Autobiography of current US vice president J.D. Vance. The book offers a clear look at his Midwest roots, touching on economic decline, opioid addiction, and family dynamics.
 
 - **Meditations** by *Marcus Aurelius* (167 A.C.E.) *****  
-  Marcus Aurelius' Meditations gathers the private reflections he penned while ruling the Roman Empire between 161 and 180 CE. These succinct notes distill the essence of Stoic philosophy, offering timeless counsel on self-discipline, humility, and the fleeting nature of power and praise. For me, the book has become a quiet refuge amid the daily tumult—a companion that cuts through the clamor of ego and reminds me to anchor my thoughts in what truly matters. Below are some parts I have highlighted:
+    Marcus Aurelius' Meditations gathers the private reflections he penned while ruling the Roman Empire between 161 and 180 CE. These succinct notes distill the essence of Stoic philosophy, offering timeless counsel on self-discipline, humility, and the fleeting nature of power and praise. For me, the book has become a quiet refuge amid the daily tumult—a companion that cuts through the clamor of ego and reminds me to anchor my thoughts in what truly matters. Below are some parts I have highlighted:
     - "[...] be free of passion and yet full of love."
     - "Not to be constantly telling people that I'm too busy, unless I really am."
     - "Doing your job without whining."
@@ -78,7 +77,7 @@ Always feel free to reach out. I love discussing books and ideas!
     - "When people injure you, ask yourself what good or harm they thought would come of it. If you understand that, you'll feel sympathy rather than outrage or anger."
 
 - **The Complex World: An Introduction to the Foundations of Complexity Science** by *David C. Krakauer* (2024) *****  
-  A thorough introduction to the foundations of complexity science, this book explores the principles of complex systems, emergence, and self-organization from a multidisciplinary perspective. Serving as a historical index of key papers in the field, it traces fundamental developments while providing their historical and conceptual context, making it an essential resource for anyone interested in complex systems.
+    A thorough introduction to the foundations of complexity science, this book explores the principles of complex systems, emergence, and self-organization from a multidisciplinary perspective. Serving as a historical index of key papers in the field, it traces fundamental developments while providing their historical and conceptual context, making it an essential resource for anyone interested in complex systems.
 
 - **When We Cease to Understand the World** by *Benjamín Labatut* (2020) *****  
     A sharp examination of scientific discovery and its unintended consequences, When We Cease to Understand the World follows pioneering scientists whose breakthroughs reshaped our understanding of the universe. Through striking examples, the book suggests that science is not just a profession but a way of life. It recounts stories of early physicists and mathematicians solving problems out of boredom in the trenches of World War I, illustrating how curiosity and obsession drive scientific progress.
