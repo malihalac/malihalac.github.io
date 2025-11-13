@@ -42,6 +42,8 @@ Always feel free to reach out. I love discussing books and ideas!
 
     On a side note, Christof Koch is one of the scientists I deeply admire and the inspiration behind this website. His research, personality, and intellectual curiosity—not only in the natural sciences but also in philosophy and literature—are truly admirable. If you haven't listened to it yet, I recommend his conversation with Lex Fridman on the Lex Fridman Podcast.
 
+- **The Consolation of Philosophy** by *Boethius* (524 AD) ★ 
+
 - **The Dark Forest** by *Cixin Liu* (2008) ★★★★  
     If the universe is so big, almost infinite, then why have we not still made contact with extraterrestrial life? Well, what if the universe was a dark forest and everyone was hiding? 
 
