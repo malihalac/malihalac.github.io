@@ -6,9 +6,17 @@ author_profile: true
 ---
 Chronologically arranged list of books I've read or listened. The books listed below are the ones I enjoyed; otherwise, I wouldn't have finished them.
 
-I often read the books in their original languages if I'm fluent in them. Therefore, some of the reviews below may not be in English. I recommend using a google translate plug-in on your browser to translate the content of the page to English. 
+I often read the books in their original languages if I'm fluent in them. I recommend using a google translate plug-in on your browser to translate the content of the page to English. 
 
 Always feel free to reach out. I love discussing books and ideas!
+
+---
+
+## Read in 2026
+**Francis Crick: Discoverer of the Genetic Code** by *Matt Ridley* (2009) ★★★★★
+An inspiring biography of Francis Crick. From his early days in the British Navy to the ardent competition to discover the structure of DNA, to his efforts to identify the physical essence of consciousness, Crick emerges as an inspiring figure—passionate, obsessed, a true believer in science, and a researcher at his core.
+
+I began reading this book at a time when repeated experimental failures had left me feeling demotivated. Seeing Crick’s relentless pursuit of natural truth, whether in deciphering DNA or probing consciousness, reminded me that great scientists aren’t defined only by their landmark discoveries. They’re great because they learn from failure, persist through uncertainty, and keep pushing toward new frontiers, often by questioning the prevailing dogmas.
 
 ---
 
