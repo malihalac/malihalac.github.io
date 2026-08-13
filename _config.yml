@@ -26,8 +26,8 @@ author:
   avatar           : "profile.png"
   name             : "Mali Halac"
   pronouns         :   
-  bio              : "PhD Student"
-  location         : "Cambridge, MA"
+  bio              : "PhD Candidate"
+  location         : # "Cambridge, MA"
   employer         : "Harvard University"
   uri              : 
   email            : "mhalac@g.harvard.edu" 
@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=WkFBf6QAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0009-0003-6371-3534"
+  orcid            : # "https://orcid.org/0009-0003-6371-3534"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # https://www.researchgate.net/profile/Mali-Halac?ev=hdr_xprf
@@ -54,14 +54,14 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : malihalac.bsky.social 
+  bluesky          : # malihalac.bsky.social 
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : mali_halac/
+  instagram        : # mali_halac/
   lastfm           : # Username
   linkedin         : mali-halac/
   mastodon         : # URL
@@ -76,7 +76,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : sweetbirdofparadise5870
+  youtube          : # sweetbirdofparadise5870
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
