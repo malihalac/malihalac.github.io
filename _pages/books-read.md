@@ -14,6 +14,40 @@ Always feel free to reach out. I love discussing books and ideas!
 
 ## Read in 2026
 
+- **Breaking Through. My Life in Science** by *Katalin Kariko* (2023) ★★★★★
+    Autobiography of Katalin Karikó, 2023 Nobel Prize winner in Physiology or Medicine. Her early work on RNA is what made COVID-19 vaccines possible. Her life is a reminder, once again, that science is a marathon, not a sprint. An idea sparks your curiosity, you push, you learn, you sometimes face significant hurdles and challenges along the way — yet you find ways to navigate them and stay focused on what matters.
+
+    Below are some highlights I found inspiration as a scientist:
+    - On the importance of reading the literature: "You are going to be a scientist. You should know about things fellow scientists are doing and have something to say." Following up on this highlight, I personally find this the most satisfying part of science. Reading, synthesizing, coming up with ideas, and testing the ideas, then troubleshoot or read again. Even if the experiment does not work, you still end up learning something.
+    - On hard work and happiness: "Do not believe that hard work and happiness are in opposition. Do not believe that one must embrace leisure to know joy." 
+    - On self-doubt and reproducibility: "I always insisted on doubting my results until there could be no doubt whatsoever. [...] This level of care, though, meant resisting some of the pressures and incentives of academic research." In another chapter: "I published more slowly than others. I didn't want my scientific papers to be rushed. I didn't want to be so eager to publish that I risked contaminating the scientific literature with dubious results. It was important that the results of my experiments not only were crystal clear and whilly convincing, but also could be reproduced." 
+    - On defining your own limits: There's a section I couldn't track down for a direct quote, where Karikó tells a prospective supervisor that she can work with RNA. He doesn't believe her, as at the time, RNA was seen as an unstable, notoriously difficult molecule to handle. So she goes to the lab in person and demonstrates the procedure, following her own detailed notes step by step. Having worked on a few risky or seemingly impossible projects myself, this stuck with me: only I get to define what's impossible for me. Karikó is explicit that working with RNA wasn't impossible. It just required careful protocols, meticulous note-taking, and a willingness to learn from failed attempts.
+    - On the importance of taking action and persistent hard work: "No one would ever miss the contribution I didn't make. No one would knock on my door and beg me to continue working."
+
+- **Antifragile. Things That Gain from Disorder** by *Nassim Nicholas Taleb* (2012) ★
+    Antifragile objects, systems, and people thrive in chaotic environments — they find ways to turn highly volatile, unpredictable circumstances to their advantage. Fragile systems, by contrast, are harmed by that same volatility. The book, therefore, is an argument for embracing antifragility, not only in finance but in life.
+
+- **King Solomon's Ring** by *Konrad Lorenz* (1949) ★★★
+    The first book I read from Konrad Lorenz was Behind The Mirror back in 2024. At the time, I was struck by the clarity of his ideas and scientific intuitions. I decided to read another book of his and was not disappointed.
+
+    King Solomon, according to jewish mythology, was able to talk to the animals. His ring gave him this superpower. In early chapters, Lorenz posits his view of King Solomon as possibly the earliest scientist in history studying animal language. Continuing on the footsteps of King Solomon, he studies animal language and behavior himself. The following quote from the first chapter is sufficient to express his dedication to this topic: 
+    
+    "And what has my wife put up with, in the course of the years? For who else would dare ask his wife to allow a tame rate to run free around the house, gnawing neat little circular pieces out of the sheets to furnish her nests, which she built in even more awkward places than men's Sunday hats?
+
+    Or what other wife would tolerate a cockatoo that bit off all the buttons from the washing hung up to dry in the garden, or allow a greylag goose to spend the night in the bedroom and leave in the morning by the window? [...] And what would she say when she found out that the nice little blue spots with which song birds, after a repast of elderberries, decorate all the furniture and curatins, just will not come out in the wash? What would she say, if ... I could go on asking for twenty pages!"
+
+    With the advance of large language models, behavior monitoring technologies, even neural recording devices, it is a prime time to design a ring for ourselves. Who knows, maybe a brain-computer interface, implanted on your dog's brain can establish verbal communication soon. We, indeed, live in exciting times!
+
+- **The Autobiography of Malcolm X** by *Malcolm X and Alex Haley* (1965) ★★★★
+    I first heard of Malcolm X in high school, when I saw a friend reading his autobiography. This year I finally read it myself, and it was full of cultural shocks. As a white Turkish man, I found some of his experiences hard to fully relate to, and I was struck by the intensity of his anger toward white people, especially in the earlier chapters. What I didn't expect was how much his outlook evolved over his lifetime — his pilgrimage to Mecca and his turn toward orthodox Islam actually marked a shift toward a more universal view of humanity. A truly eye-opening read. Highly recommended.
+
+- **The Heart of the Buddha's Teaching** by *Thich Nhat Hanh* (1999) ★★★
+    This year I started exploring spirituality, mindfulness, and meditation across different cultures and religious traditions, and this was the first book I picked up for that project. My main interest was a cross-cultural comparison of different spiritual practices and the reasoning behind them, and along the way I've tried incorporating practices I found meaningful into my daily life. A few of those are listed below:
+    - "To love means to nourish the other with appropriate attention."
+    - "If you do not give right attention to the one you love, it is kind of killing."
+    - "The truth must be presented in ways that others can accept. Words that damage or destroy are not right speech. Before you speak, understand the person you are speaking to."
+    - "So if you really love someone, train yourself to be a listener. Be a therapist. [...] You must also use loving speech. We have lost our capacity to say things calmly. We get irritated too easily. Every time we open our mouths, our speech becomes sour or bitter."
+
 - **Francis Crick: Discoverer of the Genetic Code** by *Matt Ridley* (2009) ★★★★★  
     An inspiring biography of Francis Crick. From his early days in the British Navy to the ardent competition to discover the structure of DNA, to his efforts to identify the physical essence of consciousness, Crick emerges as an inspiring figure—passionate, obsessed, a true believer in science, and a researcher at his core.
 
